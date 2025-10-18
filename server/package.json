@@ -1,0 +1,19 @@
+{
+  "name": "ble-attendance-server",
+  "version": "1.0.0",
+  "description": "Backend server for BLE-based attendance system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["ble", "attendance", "esp32", "iot"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
